@@ -10,11 +10,11 @@ This also allows you to specify which position you'd like the window in from 1-6
 ```sh
 ./sixth [size][position]
 
-./sixth 11 # Size of 1/6 starting in the first sixth [x.....]
+./sixth 11 # Size of 1/6 starting in the 1st sixth [x.....]
 
-./sixth 21 # Size of 2/6 starting in the first sixth [XX....]
+./sixth 21 # Size of 2/6 starting in the 1st sixth [XX....]
 
-./sixth 12 # Size of 1/6 starting in the second sixth [.X....]
+./sixth 12 # Size of 1/6 starting in the 2nd sixth [.X....]
 
-./sixth 34 # Size of 3/6 starting in the fourth sixth [...XXX]
+./sixth 34 # Size of 3/6 starting in the 4th sixth [...XXX]
 ```
