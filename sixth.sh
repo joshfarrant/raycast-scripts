@@ -40,8 +40,8 @@ on run argv
 	tell application frontApp to activate
 	tell application "System Events" to tell application process frontApp
 		try
-			set size of window 1 to {appWidth, appHeight}
 			set position of window 1 to {appXPosition, appYPosition}
+			set size of window 1 to {appWidth, appHeight}
 		on error errmess
 			log errmess
 			-- no window open
